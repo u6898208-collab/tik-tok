@@ -1,8 +1,8 @@
 import http from "node:http";
 import * as cheerio from "cheerio";
-import { config } from "dotenv";
+import 'dotenv/config';
 
-config();
+import "./telegramBot.js";
 
 const keyHeader = process.env.KEY;
 
